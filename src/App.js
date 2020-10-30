@@ -16,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/search">Search</Route>
           <Route path="/">Home</Route>
+          <Route path="/test">Test</Route>
         </Switch>
       </Router>
     </ThemeProvider>
