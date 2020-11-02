@@ -5,6 +5,7 @@ import { Normalize } from 'styled-normalize';
 import GlobalStyle from './GlobalStyle';
 import theme from './theme';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/search">Search</Route>
           <Route path="/">Home</Route>
         </Switch>
+        <Footer />
       </Router>
     </ThemeProvider>
   );
